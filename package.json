@@ -1,0 +1,20 @@
+{
+  "name": "api-notion2md",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@notionhq/client": "^2.2.15",
+    "express": "^4.21.2",
+    "notion-to-md": "github:EduardoDos-SantosP/notion-to-md"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
